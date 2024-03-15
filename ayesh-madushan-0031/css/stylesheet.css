@@ -1,0 +1,133 @@
+ 
+ .navbar{
+ 	background: #031834;
+ }
+ .hero-container{
+            background-color: rgb(241, 241, 241);
+            padding: 200px;
+            text-align: center;
+        }
+
+        .hero-container h1{
+            color: rgb(44, 44, 44);
+            font-size: 80px;
+        }
+
+        .hero-container .hero-brand{
+            color: tomato;
+        }
+
+        .hero-container h2{
+            color: rgb(77, 77, 77);
+            font-size: 24px;
+        }
+
+        .main-carousel{
+            height: 500px;
+        }
+
+        .main-carousel img{
+            height: 500px;
+            object-fit: cover;
+        }
+    
+        .btn-custom{
+   /*         background-color: tomato;*/
+			/*width: 40%;*/
+			/*border: none;*/
+			/*border-radius: 0;*/
+			/*margin: 5px 367px 5px;*/
+			/*border-radius: 6px;*/
+			
+			background-color: #4380d5;
+    width: 66%;
+    border: none;
+    border-radius: 0;
+    margin: 5px 60px 5px;
+    border-radius: 6px;
+        }
+
+        .btn-custom:hover{
+            background-color: brown;
+        }
+
+        @media (max-width: 768px) { 
+            .hero-container{
+                padding: 100px 24px;
+            }
+
+            .hero-container h1{
+                font-size: 48px;
+            }
+        }
+		.center{
+		text-align: center;
+		}
+		
+		.orange{
+		color: tomato;
+		}
+
+		.card-title{
+		text-align: center;
+		}
+		
+		
+	/*Countdown section */	
+	
+	.topic{
+		padding-top:100px;
+		padding-bottom: 78px;
+		text-align:center;
+		color:white;
+	}
+
+	.box{
+		padding-top:50px;
+		margin:0 auto;
+		background-image: linear-gradient(#041936, #000000);
+		height:350px;
+		width:100%;
+		display:flex;
+		justify-content: space-between;
+	}
+	.box .item{
+		height:200px;
+		width:24%;
+		/* background-color:brown; */
+		text-align: center;
+		border-right:1px solid white;
+		position:relative;
+	}
+	.box .item:last-of-type{
+		border:none;
+	}
+	.box .item h1{
+		font-size: 65px;
+    margin-top: -87px;
+    color: white;
+	}
+	.box .item h2{
+		font-size:25px;
+		margin-top:-70px;
+		color:white;
+	}
+	
+	.m-32 {
+    margin: 0 32px 0;
+}
+
+.hero-container-2 {
+    background-color: rgb(3 18 38);
+    padding: 90px;
+    text-align: center;
+    height: 334px;
+}
+
+.white{
+	color: #fff;
+}
+
+.f-22 {
+    font-size: 22px;
+}
